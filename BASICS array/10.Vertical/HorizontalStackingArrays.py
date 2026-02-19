@@ -1,0 +1,11 @@
+import numpy as np
+
+v1 = np.array([1, 2, 3, 4])
+v2 = np.array([5, 6, 7, 8])
+
+print("Vertical stacking:")
+print(np.vstack([v1, v2]))
+print(np.vstack((v1, v2, v1, v2)))
+
+print("Horizontal stacking:")
+print(np.hstack([v1, v2]))
